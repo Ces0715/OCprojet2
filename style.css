@@ -14,3 +14,42 @@ header{
 h1{
 	font-size: 1.3em;
 }
+
+
+
+
+aside {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 180px;
+    height: 250%;
+    background-color: orange;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+#photocv
+{
+	text-align:center;
+	margin-top: 4px;
+}
+
+#photocv a img
+{
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	object-position: top;
+}
+
+
+aside h2{
+font-size: 1.3em;
+text-align: center;
+color: white;
+border: 3px black solid;
+background-color: black;
+}
