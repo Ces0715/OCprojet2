@@ -20,10 +20,7 @@
 		min-width: 800px;
 		height: 150px;
 		text-align: center;
-		margin-left: 180px;
-	  
-
-		
+		margin-left: 180px;	
 	}
 
 	h1{
@@ -84,10 +81,22 @@
 
 	#container{
 		display: flex;
-		flex-direction: center;
 		align-content: flex-start;
 		padding-top: 200px;
-		padding-right: 1000px;
+		padding-right: 500px;
 		margin-top: 10px;
 		margin-left: 200px;
+		border: 1px solid orange;
+		height: 1400px;
+		width: 50%;
+		flex-direction: column;
 	}
+
+	
+	section h2{
+	font-size: 1em;
+	box-shadow: 0px 2px orange;
+	text-align: center;
+}
+}
+
