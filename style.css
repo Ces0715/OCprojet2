@@ -4,19 +4,19 @@ p{
 
 body{
 	font-family: "comic sans ms";
+	display: flex;
 }
 
 header{
 	font-weight: bold;
 	text-align: center;
+	margin:0px 0px 0px 400px;
+
 }
 
 h1{
 	font-size: 1.3em;
 }
-
-
-
 
 aside {
     margin: 0px 0px 0px 0px;
