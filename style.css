@@ -1,76 +1,93 @@
-p{
-	color: black;
-}
+	p{
+		color: black;
+	}
 
-body{
-	font-family: "comic sans ms";
-	display: flex;
-	height: auto;
-	width: 800px;
-	margin: 0px;
-}
+	body{
+		font-family: "comic sans ms";
+		display: flex;
+		height: auto;
+		width: 800px;
+		margin: 0px;
+		margin-right: 0px;
+	}
 
-header{
-	display: flex;
-	font-weight: bold;
-	text-align: center;
-	margin: 0px 0px 200px 400px;
-	justify-content: flex-start;
-}
+	header{
+		display: flex;
+		border: 1px solid orange;
+		display:inline-block;
+		position: absolute;
+		width: 70%;
+		min-width: 800px;
+		height: 150px;
+		text-align: center;
+		margin-left: 180px;
+	  
 
-h1{
+		
+	}
+
+	h1{
+		font-size: 2.5em;
+		margin:30px;
+		color: orange;
+	}
+
+	header h2{
+		font-size: 1.2em;
+
+	}
+
+	aside {
+	    margin: 0px 0px 0px 0px;
+	    display: flex;
+	    flex-direction: column;
+	    position: absolute;
+	    width: 180px;
+	    height: 250%;
+	    background-color: orange;
+	    font-size: 0.8em;
+	    text-align: justify;
+
+	}
+
+	#photocv
+	{
+		text-align:center;
+		margin-top: 4px;
+	}
+
+	#photocv a img
+	{
+		border-radius: 100%;
+		width: 150px;
+		height: 150px;
+		object-fit: cover;
+		object-position: top;
+	}
+
+
+	aside h2{
 	font-size: 1.3em;
-}
+	text-align: center;
+	color: white;
+	border: 3px black solid;
+	background-color: black;
 
-aside {
-    margin: 0px 0px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 180px;
-    height: 250%;
-    background-color: orange;
-    font-size: 0.8em;
-    text-align: justify;
+	}
 
-}
+	aside h3,p
+	{
+		line-height: 1em;
+		margin-left: 8px;
+		margin-right: 8px;
+	}
 
-#photocv
-{
-	text-align:center;
-	margin-top: 4px;
-}
-
-#photocv a img
-{
-	border-radius: 100%;
-	width: 150px;
-	height: 150px;
-	object-fit: cover;
-	object-position: top;
-}
-
-
-aside h2{
-font-size: 1.3em;
-text-align: center;
-color: white;
-border: 3px black solid;
-background-color: black;
-
-}
-
-aside h3,p
-{
-	line-height: 1em;
-	margin-left: 8px;
-	margin-right: 8px;
-}
-
-#container{
-	flex-direction: center;
-	align-content: flex-start;
-	padding-top: 200px;
-	padding-right: 1000px;
-	margin-top: 10px;
-}
+	#container{
+		display: flex;
+		flex-direction: center;
+		align-content: flex-start;
+		padding-top: 200px;
+		padding-right: 1000px;
+		margin-top: 10px;
+		margin-left: 200px;
+	}
