@@ -104,4 +104,22 @@
 	line-height: 150px;
 }
 
-	
+	.fa-swimmer{
+		color:black;
+		font-size: 40px;
+		position: absolute;
+	}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://use.fontawesome.com/releases/v5.0.6/css/all.css'); 
+}
+
+
+	i
+{
+ background-color: white;
+ border-radius: 50%;
+ border: 1x solid grey;
+ padding:5px;
+}
