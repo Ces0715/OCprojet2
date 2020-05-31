@@ -94,31 +94,39 @@
 }
 
 	li{
-	line-height: 150px;
+	line-height: 130px;
 }
 
 	.secgauche,.secdroite{
 		display: flex;
 		border:1px solid black;
+		flex-direction: column;
+		flex-wrap: wrap;
 	}
 
 	.secdroite{
 		margin-left: 250px;	
-		width: 50%;
+		width: 60%;
 		flex-direction: row;
+		padding-bottom: 5px;
 	}
 
 	.secgauche{
-		width: 25%;
-		margin-left: 10px;
+		width: 30%;
+		margin-left: 2px;
 		flex-direction: row;
+		font-size: 1em;
+		padding-bottom: 5px;
 	}
+
+	
 
 	.fa-swimmer{
 		color:black;
 		font-size: 40px;
 		position: absolute;
 	}
+
 
 @font-face {
   font-family: 'FontAwesome';
