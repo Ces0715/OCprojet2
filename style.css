@@ -1,3 +1,5 @@
+
+
 	p{
 		color: black;
 	}
@@ -6,14 +8,12 @@
 		font-family: "comic sans ms";
 		display: flex;
 		height: auto;
-		width: 800px;
 		margin: 0px;
 		margin-right: 0px;
 	}
 
 	header{
 		display: flex;
-		border: 1px solid orange;
 		display:inline-block;
 		position: absolute;
 		width: 70%;
@@ -40,21 +40,18 @@
 	    flex-direction: column;
 	    position: absolute;
 	    width: 180px;
-	    height: 250%;
+	    height: 200%;
 	    background-color: orange;
 	    font-size: 0.8em;
 	    text-align: justify;
-
 	}
 
-	#photocv
-	{
+	#photocv{
 		text-align:center;
 		margin-top: 4px;
 	}
 
-	#photocv a img
-	{
+	#photocv a img{
 		border-radius: 100%;
 		width: 150px;
 		height: 150px;
@@ -82,15 +79,11 @@
 	#container{
 		display: flex;
 		align-content: flex-start;
-		padding-top: 200px;
-		padding-left: 50px;
-		padding-right: 500px;
-		margin-top: 10px;
-		margin-left: 200px;
-		margin-right: 500px;
+		padding:200px 500px 50px 40px;
+		margin:10px 500px 0px 200px;
 		border: 1px solid orange;
-		height: 1400px;
-		width: 50%;
+		height: 1000px;
+		width: 40%;
 		flex-direction: column;
 	}
 	
@@ -106,18 +99,19 @@
 
 	.secgauche,.secdroite{
 		display: flex;
-		flex-direction: row;
 		border:1px solid black;
 	}
 
 	.secdroite{
 		margin-left: 250px;	
 		width: 50%;
+		flex-direction: row;
 	}
 
 	.secgauche{
 		width: 25%;
 		margin-left: 10px;
+		flex-direction: row;
 	}
 
 	.fa-swimmer{
