@@ -2,6 +2,7 @@
 
 	p{
 		color: black;
+	
 	}
 
 	body{
@@ -75,7 +76,7 @@
 		margin-right: 8px;
 	}
 
-	
+
 	#container{
 		display: flex;
 		align-content: flex-start;
@@ -129,16 +130,8 @@
 	}
 
 
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('https://use.fontawesome.com/releases/v5.0.6/css/all.css'); 
-}
-
-
-	i
-{
- background-color: white;
- border-radius: 50%;
- border: 1x solid grey;
- padding:5px;
+	i{
+ background-color: black;
+ border-radius: 20%;
+ padding:20px;
 }
