@@ -7,8 +7,7 @@
 	}
 
 	header{
-		display: flex;
-		display:inline-block;
+		display: inline-block;
 		position: absolute;
 		width: 60%;
 		min-width: 800px;
@@ -126,9 +125,6 @@
 		flex-direction: row;
 	}
 
-	i{
- background-color: black;
- border-radius: 20%;
- padding:20px;
- width: 3%;
-}
+	i {
+	font-family: fontAwesome;
+	
