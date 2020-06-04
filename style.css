@@ -88,14 +88,6 @@
 	padding-bottom: 2px;
 }
 
-	.secgauche li{
-	line-height: 80px;
-}
-
-		li p{
-			line-height: 10px;
-		}
-
 	.secgauche,.secdroite{
 		display: flex;
 		border: 1px solid black;
@@ -106,11 +98,10 @@
 
 	.secdroite{
 		margin-left: 100px;	
-		width: 75%;
+		width: 80%;
 		flex-direction: row;
-		padding-bottom: 5px;
-		padding-top: 52px;
 		text-align: justify;
+		padding: 5px;
 	}
 
 	.secgauche{
@@ -118,8 +109,8 @@
 		margin-left: 0px;
 		flex-direction: row;
 		font-size: 1em;
-		padding-bottom: 80px;
-		padding-top: 0px;
+		
+		
 	}
 
 	.section1{
@@ -139,6 +130,28 @@
 	.section3{
 		display: flex;
 		flex-direction: row;
-		width:700px;
+		width:600px;
 	}
 
+	li{
+		margin-bottom: 4em;
+		margin-top: 1.4em;
+	}
+
+	ul p{
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	section p{
+		line-height: 1.2em;
+		font-size: 0.9em;
+	}
+
+
+	@media all and(max-width:1024px){
+		#aside{
+			display:none;
+		}
+	}
+	
