@@ -155,21 +155,21 @@
 		text-align: justify;
 	}
 	
-	.dog{
+	#dog{
 		width: 40px;
 		height: 40px;
 		border:1px solid black;	
 		border-radius: 50%;
 	}
 
-	.swim{
+	#swim{
 		width: 40px;
 		height: 40px;
 		border:1px solid black;	
 		border-radius: 50%;
 	}
 
-	.bicycle{
+	#bicycle{
 		width: 40px;
 		height: 40px;
 		border:1px solid black;	
