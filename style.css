@@ -175,11 +175,23 @@ body{
 		border-radius: 50%;
 	}
 
-	
-	
-	@media all and(max-width:1024px){
-		#aside{
-			display:none;
-		}
+	#logo{
+		display: inline-block;
+		display: flex;
 	}
 	
+	
+	.recommandations img{
+		width: 25px;
+		height: 25px;
+	}
+
+	.experiencesprofessionnelles img{
+		width: 25px;
+		height: 25px;
+	}
+
+	.formation img{
+		width: 25px;
+		height: 25px;
+	}
