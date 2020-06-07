@@ -1,76 +1,185 @@
-p{
-	color: black;
-}
-
 body{
-	font-family: "comic sans ms";
-	display: flex;
-	height: auto;
-	width: 800px;
-	margin: 0px;
-}
+		display: flex;
+		font-family: "comic sans ms";
+		margin: 0px;		
+	}
 
-header{
-	display: flex;
-	font-weight: bold;
-	text-align: center;
-	margin: 0px 0px 200px 400px;
-	justify-content: flex-start;
-}
+	header{
+		display: inline-block;
+		position: absolute;
+		width: 60%;
+		min-width: 800px;
+		height: 140px;
+		text-align: center;
+		margin-left: 180px;	
+	}
 
-h1{
+	h1{
+		font-size: 2.5em;
+		margin:30px;
+		color: orange;
+		text-shadow: 0px 1px 0px orange;
+	}
+
+	header h2{
+		font-size: 1.2em;
+	}
+
+	aside {
+	    margin: 0px 0px 0px 0px;
+	    display: flex;
+	    flex-direction: column;
+	    position: absolute;
+	    width: 180px;
+	    height: 220%;
+	    background-color: orange;
+	    font-size: 0.8em;
+	    text-align: justify;
+	}
+
+	#photocv{
+		text-align:center;
+		margin-top: 4px;
+	}
+
+	#photocv a img{
+		border-radius: 100%;
+		width: 150px;
+		height: 150px;
+		object-fit: cover;
+		object-position: top;
+	}
+
+
+	aside h2{
 	font-size: 1.3em;
+	text-align: center;
+	color: white;
+	border: 3px black solid;
+	background-color: black;
+	}
+
+	aside h3,p{
+		line-height: 0.2em;
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+
+	aside p{
+		line-height: 3em;
+	}
+
+	#container{
+		display: flex;
+		align-content: flex-start;
+		padding:200px 200px 50px 40px;
+		margin:10px 200px 0px 200px;
+		height: 80%;
+		width: 55%;
+		flex-direction: column;
+	}
+
+	section h2{
+	text-align: left;
+	font-size: 1.1em;
+	box-shadow: 0px 2px orange;
+	text-align: left;
+	padding-bottom: 2px;
 }
 
-aside {
-    margin: 0px 0px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 180px;
-    height: 250%;
-    background-color: orange;
-    font-size: 0.8em;
-    text-align: justify;
+	.secgauche,.secdroite{
+		display: flex;
+		border: 1px solid black;
+		flex-direction: row;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
 
-}
+	.secdroite{
+		margin-left: 100px;	
+		width: 80%;
+		flex-direction: row;
+		text-align: justify;
+		padding: 5px;
+	}
 
-#photocv
-{
-	text-align:center;
-	margin-top: 4px;
-}
+	.secgauche{
+		width: 46%;
+		margin-left: 0px;
+		flex-direction: row;
+		font-size: 1em;
+		
+		
+	}
 
-#photocv a img
-{
-	border-radius: 100%;
-	width: 150px;
-	height: 150px;
-	object-fit: cover;
-	object-position: top;
-}
+	.section1{
+		display: flex;
+		flex-direction: row;
+		height: 400px;
+		width: 700px;
+	}
+	
+	.section2{
+		display:flex;
+		flex-direction: row;
+		height: 400px;
+		width: 700px;
+	}
 
+	.section3{
+		display: flex;
+		flex-direction: row;
+		width:600px;
+	}
 
-aside h2{
-font-size: 1.3em;
-text-align: center;
-color: white;
-border: 3px black solid;
-background-color: black;
+	li{
+		margin-bottom: 10em;
+		margin-top: 1em;
+	}
 
-}
+	ul p{
+		margin-top: 1em;
+		margin-bottom: 3em;
+		font-size: 0.9em;
+	}
 
-aside h3,p
-{
-	line-height: 1em;
-	margin-left: 8px;
-	margin-right: 8px;
-}
+	h4{
+		margin-bottom: 0px;
+	}
 
-#container{
-	flex-direction: center;
-	align-content: flex-start;
-	padding-top: 200px;
-	padding-right: 1000px;
-	margin-top: 10px;
-}
+	.secdroite p{
+		line-height: 1.2em;
+		font-size: 0.9em;
+		margin-top: 0px;
+		text-align: justify;
+	}
+	
+	#dog{
+		width: 40px;
+		height: 40px;
+		border:1px solid black;	
+		border-radius: 50%;
+	}
+
+	#swim{
+		width: 40px;
+		height: 40px;
+		border:1px solid black;	
+		border-radius: 50%;
+	}
+
+	#bicycle{
+		width: 40px;
+		height: 40px;
+		border:1px solid black;	
+		border-radius: 50%;
+	}
+
+	
+	
+	@media all and(max-width:1024px){
+		#aside{
+			display:none;
+		}
+	}
+	
