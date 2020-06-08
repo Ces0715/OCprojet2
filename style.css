@@ -38,7 +38,8 @@ body{
 	}
 
 	h2+p{
-		padding-bottom: 100px;
+		padding-bottom: 400px;
+		text-align: justify-center;
 	}
 
 	#photocv{
@@ -65,12 +66,12 @@ body{
 
 	aside h3,p{
 		line-height: 0.2em;
-		margin-left: 8px;
-		margin-right: 8px;
+		margin-left: 12px;
+		margin-right: 12px;
 	}
 
 	aside p{
-		line-height: 3em;
+		line-height: 1.5em;
 	}
 
 	#container{
