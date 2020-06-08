@@ -188,6 +188,17 @@
 	}
 
 	.formation img{
+		display: flex;
 		width: 25px;
 		height: 25px;
+		margin-top: 16px;
+		padding-right: 5px;
+
+	}
+
+	.formation{
+	display:flex;
+	justify-content: flex-start;
+
+
 	}
