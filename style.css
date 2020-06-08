@@ -87,6 +87,8 @@ body{
 	padding-bottom: 2px;
 }
 
+
+
 	.secgauche,.secdroite{
 		display: flex;
 		border: 1px solid black;
@@ -173,10 +175,15 @@ body{
 		height: 40px;
 		border:1px solid black;	
 		border-radius: 50%;
+	
+
 	}
 
 	#logo{
 		display:flex;
+		padding-top: 30px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 	
 	
