@@ -159,31 +159,33 @@ body{
 	.dog{
 		width: 40px;
 		height: 40px;
-		border:1px solid black;	
+		border:2px solid black;	
 		border-radius: 50%;
 	}
 
 	.swim{
 		width: 40px;
 		height: 40px;
-		border:1px solid black;	
+		border:2px solid black;	
 		border-radius: 50%;
 	}
 
 	.bicycle{
 		width: 40px;
 		height: 40px;
-		border:1px solid black;	
+		border:2px solid black;	
 		border-radius: 50%;
-	
+
 
 	}
 
 	#logo{
 		display:flex;
+		justify-content: space-between;
 		padding-top: 30px;
-		margin-left: 20px;
-		margin-right: 20px;
+		margin-left: 6px;
+		margin-right: 6px;
+		
 	}
 	
 	
