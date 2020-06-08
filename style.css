@@ -176,8 +176,7 @@ body{
 	}
 
 	#logo{
-		display: inline-block;
-		display: flex;
+		
 	}
 	
 	
@@ -195,3 +194,4 @@ body{
 		width: 25px;
 		height: 25px;
 	}
+
