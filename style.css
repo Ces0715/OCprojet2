@@ -1,7 +1,8 @@
 body{
 		display: flex;
 		font-family: "comic sans ms";
-		margin: 0px;		
+		margin: 0px;
+		width: 100%;		
 	}
 
 	header{
@@ -104,31 +105,6 @@ body{
 		padding-bottom: 2px;
 	}
 
-
-
-	.secgauche,.secdroite{
-		display: flex;
-		border: 1px solid black;
-		flex-direction: row;
-		justify-content: flex-start;
-		flex-wrap: wrap;
-	}
-
-	.secdroite{
-		margin-left: 100px;	
-		width: 80%;
-		flex-direction: row;
-		text-align: justify;
-		padding: 5px;
-	}
-
-	.secgauche{
-		width: 46%;
-		margin-left: 0px;
-		flex-direction: row;
-		font-size: 1em;		
-	}
-
 	.section1{
 		display: flex;
 		flex-direction: row;
@@ -204,21 +180,36 @@ body{
 	.recommandations img{
 		width: 25px;
 		height: 25px;
+		padding-top: 15px;
+		margin-right: 5px;
 	}
 
-	.experiencesprofessionnelles img{
+	.recommandations{
+		display: flex;
+	}
+
+	.exp-professionnelles img{
 		width: 25px;
 		height: 25px;
+		padding-top: 15px;
+		margin-right: 5px;
+	}
+
+	.exp-professionnelles{
+		display:flex;
 	}
 
 	.formation img{
 		width: 25px;
 		height: 25px;
+		padding-top: 15px;
+		margin-right: 5px;
 	}
 
-
-
-
+	.formation{
+		display:flex;
+		align-items: flex-start;
+	}
 
 	
 
