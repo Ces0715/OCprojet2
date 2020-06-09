@@ -31,15 +31,18 @@ body{
 	    flex-direction: column;
 	    position: absolute;
 	    width: 180px;
-	    height: 220%;
+	    height: 210%;
 	    background-color: orange;
 	    font-size: 0.8em;
-	    text-align: justify;
+	  	text-align: justify;
+	}
+
+	aside p{
+			line-height: 1em;
 	}
 
 	h2+p{
-		padding-bottom: 400px;
-		text-align: justify-center;
+		padding-bottom: 200px;
 	}
 
 	#photocv{
@@ -66,12 +69,19 @@ body{
 
 	aside h3,p{
 		line-height: 0.2em;
-		margin-left: 12px;
-		margin-right: 12px;
 	}
 
-	aside p{
-		line-height: 1.5em;
+	aside li{
+		margin-bottom: 5px;
+	}
+
+	#contact-list{
+		list-style: none;
+		margin-right: 5px;
+		margin-left: 5px;
+		padding-right: 5px;
+		padding-left: 5px;
+		padding-top: 1px;
 	}
 
 	#container{
@@ -206,3 +216,11 @@ body{
 
 
 
+
+
+	
+
+	#formation-list{
+		display: flex;
+		justify-content: space-between;
+	}
