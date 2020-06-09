@@ -38,11 +38,11 @@ body{
 	}
 
 	aside p{
-			line-height: 1em;
+		line-height: 1em;
 	}
 
 	h2+p{
-		padding-bottom: 300px;
+		padding-bottom: 350px;
 		margin-right: 12px;
 		margin-left: 12px;
 		line-height: 2em;
@@ -60,7 +60,6 @@ body{
 		object-fit: cover;
 		object-position: top;
 	}
-
 
 	aside h2{
 	font-size: 1.3em;
