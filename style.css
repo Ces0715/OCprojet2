@@ -191,7 +191,9 @@ header{
 		border:1px solid black;
 		width:60%;
 		height: 70%;
-		padding-bottom: 20px;	
+		padding-bottom: 15px;	
+		margin-bottom: 10px;
+		text-align: justify;
 	}
 
 	.sec-droite p{
@@ -207,10 +209,10 @@ header{
 
 	.sec-gauche{
 		border:1px solid black;
-		width:30%;
+		width:40%;
 		height: 20%;
-		padding-top: 10px;
-		line-height: 0.6em;
+		padding-top: 12px;
+		line-height: 0.7em;
 	}
 
 	#exp-professionnelles-list{
