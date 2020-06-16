@@ -134,8 +134,8 @@ header{
 	.recommandations img{
 		width: 25px;
 		height: 25px;
-		padding-top: 15px;
-		margin-right: 5px;
+		padding-top: 10px;
+		margin-right: 10px;
 	}
 
 	.recommandations{
@@ -145,8 +145,8 @@ header{
 	.exp-professionnelles img{
 		width: 25px;
 		height: 25px;
-		padding-top: 15px;
-		margin-right: 5px;
+		padding-top: 10px;
+		margin-right: 10px;
 	}
 
 	.exp-professionnelles{
@@ -157,8 +157,8 @@ header{
 	.formation img{
 		width: 25px;
 		height: 25px;
-		padding-top: 15px;
-		margin-right: 5px;
+		padding-top: 10px;
+		margin-right: 10px;
 	}
 
 	.formation{
@@ -188,7 +188,6 @@ header{
 	}
 
 	.sec-droite{
-		border:1px solid black;
 		width:60%;
 		height: 70%;
 		padding-bottom: 15px;	
@@ -239,10 +238,11 @@ header{
 	}
 
 	#recommandations-list{
-		width:120%;
+		width:170%;
 		height: 10%;
 		padding-left: 0px;
-		margin-top:5px;
+		margin-top:15px;
+		padding-top: 5px;
 	}
 
 	.sec-droite p{
