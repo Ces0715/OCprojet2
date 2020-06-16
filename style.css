@@ -8,17 +8,16 @@ body{
 
 header{
 		display: flex;
-		position: absolute;
+		position:absolute;
 		width: 60%;
-		min-width: 800px;
-		height: 80px;
 		text-align: center;
-		margin-left: 180px;	
+		margin-left: 200px;	
+		margin-top: 20px;
 	}
 
 	h1{
 		font-size: 2em;
-		margin:30px;
+		margin:30px 30px 0px 30px;
 		color: #fa8100;
 		text-shadow: 1px 1px 0px #fa8100;
 	}
@@ -191,7 +190,8 @@ header{
 	.sec-droite{
 		width:60%;
 		height: 70%;
-		padding-bottom: 15px;	
+		padding-bottom: 5px;
+		padding-top: 10px;	
 		margin-bottom: 10px;
 		text-align: justify;
 	}
@@ -209,6 +209,7 @@ header{
 		width:40%;
 		height: 20%;
 		padding-top: 12px;
+		padding-bottom: 5px;
 		line-height: 0.7em;
 	}
 
@@ -236,6 +237,7 @@ header{
 		flex-direction: row;
 		justify-content: space-around;
 		height: 50%;
+		line-height: 10px;
 	}
 
 	#recommandations-list{
@@ -244,10 +246,6 @@ header{
 		padding-left: 0px;
 		margin-top:15px;
 		padding-top: 5px;
-	}
-
-	.sec-droite p{
-		line-height: 17px;
 	}
 
 	h4{
