@@ -1,17 +1,17 @@
 
-body{	
+	body{	
 		display: flex;
 		font-family: "comic sans ms";
 		margin: 0px;
 		width: 100%;		
 	}
 
-header{
+	header{
 		display: flex;
 		position:absolute;
 		width: 60%;
 		text-align: center;
-		margin-left: 200px;	
+		margin-left: 220px;	
 		margin-top: 20px;
 	}
 
@@ -171,7 +171,7 @@ header{
 		flex-direction: column;
 		align-content: flex-start;
 		padding:170px 200px 50px 40px;
-		margin:15px 150px 0px 200px;
+		margin:15px 150px 0px 220px;
 		height: 85%;
 		width: 40%;
 		border:1px solid black;	
@@ -183,6 +183,7 @@ header{
 		width:120%;
 		height: 35%;
 		padding-left: 0px;
+		padding-bottom: 20px;
 		margin-top:1px;
 	}
 
