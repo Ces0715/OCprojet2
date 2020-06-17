@@ -5,19 +5,18 @@
 		width: 100%;		
 	}
 
-header{
+	header{
 		display: flex;
-		position: absolute;
+		position:absolute;
 		width: 60%;
-		min-width: 800px;
-		height: 80px;
 		text-align: center;
-		margin-left: 180px;	
+		margin-left: 220px;	
+		margin-top: 20px;
 	}
 
 	h1{
 		font-size: 2em;
-		margin:30px;
+		margin:30px 30px 0px 30px;
 		color: #fa8100;
 		text-shadow: 1px 1px 0px #fa8100;
 	}
@@ -50,7 +49,6 @@ header{
 		margin-left: 14px;
 		line-height: 1.5em;
 		text-align: justify;
-		word-break: break-word;
 	}
 
 	#photocv{
@@ -91,11 +89,10 @@ header{
 		padding-top: 1px;
 	}
 
-
 	section h2{
 		text-align: left;
 		font-size: 1.1em;
-		box-shadow: 0px 2px orange;
+    box-shadow: 0px 2px #fa8100;
 		width: 200%;
 		text-align: left;
 		padding-bottom: 2px;
@@ -171,31 +168,29 @@ header{
 		flex-direction: column;
 		align-content: flex-start;
 		padding:170px 200px 50px 40px;
-		margin:15px 150px 0px 200px;
+    margin:15px 150px 0px 220px;
 		height: 85%;
 		width: 40%;
 		border:1px solid black;	
 		font-size: 0.9em;
 	}
 
-
 	#formation-list{
-		border: 1px solid black;
 		width:120%;
-		height: 45%;
+		height: 35%;
 		padding-left: 0px;
+		padding-bottom: 20px;
 		margin-top:1px;
 	}
 
 	.sec-droite{
 		width:60%;
 		height: 70%;
-		padding-bottom: 15px;	
+		padding-bottom: 5px;
+		padding-top: 10px;	
 		margin-bottom: 10px;
 		text-align: justify;
 	}
-
-	
 
 	#formation-list li{
 		display: flex;
@@ -208,11 +203,12 @@ header{
 		width:40%;
 		height: 20%;
 		padding-top: 12px;
+		padding-bottom: 5px;
 		line-height: 0.7em;
+		display: list-item;
 	}
 
 	#exp-professionnelles-list{
-		border: 1px solid black;
 		width:120%;
 		height: 30%;
 		padding-left: 0px;
@@ -235,6 +231,8 @@ header{
 		flex-direction: row;
 		justify-content: space-around;
 		height: 50%;
+		line-height: 10px;
+		list-style: none;
 	}
 
 	#recommandations-list{
@@ -245,12 +243,7 @@ header{
 		padding-top: 5px;
 	}
 
-	.sec-droite p{
-		line-height: 17px;
-	}
-
 	h4{
 		margin:0px;
 		padding-top: 5px;
 	}
-
