@@ -37,12 +37,10 @@
 
 		margin-right: 70px;
 		margin-top: 0px;
-		margin-bottom: 0px;
-		
+		margin-bottom: 0px;	
 	}
 
 	aside{
-
 	    margin: 0px 0px 0px 0px;
 	    display: flex;
 	    flex-direction: column;
@@ -80,7 +78,7 @@
 		object-fit: cover;
 		object-position: top;
 	}
-
+	
 	aside h2{
 	font-size: 1.3em;
 	text-align: center;
@@ -239,15 +237,16 @@
 	}
 	
 	li:first-child {
-  		list-style-type:disc;
+  		list-style-type:circle;
   		list-style-color:orange;
   		color: #fa8100;
 	}
 	
 
 	li:last-child{
-  		list-style-type:circle;
+  		list-style-type:disc;
   		list-style-color:#fa8100;
+  		color:#fa8100;
 	}
 
 
