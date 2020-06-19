@@ -1,4 +1,3 @@
-
 	body{	
 		display: flex;
 		font-family: "comic sans ms";
@@ -20,17 +19,14 @@
 		margin:30px 30px 0px 30px;
 		color: #fa8100;
 		text-shadow: 1px 1px 0px #fa8100;
-
 	}
 
 	header h2{
 		font-size: 1.2em;
-
 		margin-right: 70px;
 	}
 
 	aside{
-
 	    margin: 0px 0px 0px 0px;
 	    display: flex;
 	    flex-direction: column;
@@ -76,7 +72,6 @@
 	background-color: black;
 	}
 
-
 	aside h3{
 		line-height: 1em;
 	}
@@ -94,11 +89,10 @@
 		padding-top: 1px;
 	}
 
-
 	section h2{
 		text-align: left;
 		font-size: 1.1em;
-		box-shadow: 0px 2px #fa8100;
+    box-shadow: 0px 2px #fa8100;
 		width: 200%;
 		text-align: left;
 		padding-bottom: 2px;
@@ -174,13 +168,12 @@
 		flex-direction: column;
 		align-content: flex-start;
 		padding:170px 200px 50px 40px;
-		margin:15px 150px 0px 220px;
+    margin:15px 150px 0px 220px;
 		height: 85%;
 		width: 40%;
 		border:1px solid black;	
 		font-size: 0.9em;
 	}
-
 
 	#formation-list{
 		width:120%;
