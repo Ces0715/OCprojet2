@@ -34,7 +34,6 @@
 
 	header h2{
 		font-size: 1.2em;
-
 		margin-right: 70px;
 		margin-top: 0px;
 		margin-bottom: 0px;	
@@ -106,7 +105,6 @@
 		padding-top: 1px;
 	}
 
-
 	section h2{
 		text-align: left;
 		font-size: 1.1em;
@@ -172,6 +170,13 @@
 		margin-right: 10px;
 	}
 
+	.fa-circle{
+		color:#fa8100;
+	}
+	.fa-dot-circle-o{
+		color:#fa8100;
+	}
+
 	.formation{
 		display: flex;
 		width: 120%;
@@ -222,7 +227,6 @@
 		padding-top: 12px;
 		padding-bottom: 5px;
 		line-height: 0.7em;
-		display: list-item;
 	}
 
 	.sec-gauche p{
@@ -231,12 +235,6 @@
 
 	ul{
 		list-style: none;
-	}
-	
-	li:first-child {
-  		list-style-type:circle;
-  		list-style-color:orange;
-  		color: #fa8100;
 	}
 	
 
