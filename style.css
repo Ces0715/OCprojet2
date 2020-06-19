@@ -78,7 +78,7 @@
 		object-fit: cover;
 		object-position: top;
 	}
-	
+
 	aside h2{
 	font-size: 1.3em;
 	text-align: center;
@@ -114,14 +114,14 @@
 		text-align: left;
 	}
 
-	.dog{
+	.tv{
 		width: 40px;
 		height: 40px;
 		border:2px solid black;	
 		border-radius: 50%;
 	}
 
-	.swim{
+	.sun{
 		width: 40px;
 		height: 40px;
 		border:2px solid black;	
@@ -138,9 +138,10 @@
 	#logo{
 		display:flex;
 		justify-content: space-between;
-		padding-top: 20px;
+		padding-top: 10px;
 		margin-left: 6px;
 		margin-right: 6px;	
+		text-align: center;
 	}
 	
 	
