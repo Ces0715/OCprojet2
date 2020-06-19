@@ -144,23 +144,8 @@
 		text-align: center;
 	}
 	
-	
-	.recommandations img{
-		width: 25px;
-		height: 25px;
-		padding-top: 10px;
-		margin-right: 10px;
-	}
-
 	.recommandations{
 		display: flex;
-	}
-
-	.exp-professionnelles img{
-		width: 25px;
-		height: 25px;
-		padding-top: 10px;
-		margin-right: 10px;
 	}
 
 	.exp-professionnelles{
@@ -169,9 +154,20 @@
 		box-shadow: 0px 2px #fa8100;
 	}
 
-	.formation img{
-		width: 25px;
-		height: 25px;
+	.fa-book{
+		color:#fa8100;
+		padding-top: 10px;
+		margin-right: 10px;
+	}
+
+	.fa-suitcase{
+		color:#fa8100;
+		padding-top: 10px;
+		margin-right: 10px;
+	}
+
+	.fa-address-book-o{
+		color:#fa8100;
 		padding-top: 10px;
 		margin-right: 10px;
 	}
