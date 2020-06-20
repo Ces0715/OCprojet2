@@ -143,7 +143,6 @@
 		padding-top: 8px;
 	}
 
-
 	#logo{
 		display:flex;
 		justify-content: space-between;
@@ -238,6 +237,7 @@
 		padding-top: 12px;
 		padding-bottom: 5px;
 		line-height: 0.7em;
+		justify-content: space-around;
 	}
 
 	.sec-gauche p{
