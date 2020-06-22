@@ -51,7 +51,7 @@
 	    flex-direction: column;
 	    position: absolute;
 	    width: 190px;
-	    height: 180%;
+	    height: 165%;
 	    background-color: #fa8100;
 	    font-size: 0.8em;
 	  	text-align: justify;
@@ -179,8 +179,9 @@
 
 	.fa-dot-circle-o{
 		color:#fa8100;
-		margin-top: 17px;
-		margin-right: 10px;
+		margin-top: 10px;
+		margin-right: 5px;
+		width:5px;
 	}
 
 	.formation{
