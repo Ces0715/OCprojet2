@@ -84,7 +84,6 @@
 	background-color: black;
 	}
 
-
 	aside h3{
 		line-height: 1em;
 		color:black;
@@ -151,10 +150,6 @@
 		margin-right: 6px;	
 		text-align: center;
 	}
-	
-	.recommandations{
-		display: flex;
-	}
 
 	.exp-professionnelles{
 		display:flex;
@@ -180,11 +175,10 @@
 		margin-right: 10px;
 	}
 
-	.fa-circle{
-		color:#fa8100;
-	}
 	.fa-dot-circle-o{
 		color:#fa8100;
+		margin-top: 17px;
+		margin-right: 10px;
 	}
 
 	.formation{
@@ -199,12 +193,11 @@
 		align-content: flex-start;
 		padding:170px 200px 50px 40px;
 		margin:15px 150px 0px 220px;
-		height: 85%;
+		height: 80%;
 		width: 40%;
 		border:1px solid black;	
 		font-size: 0.9em;
 	}
-
 
 	#formation-list{
 		width:120%;
@@ -212,6 +205,14 @@
 		padding-left: 0px;
 		padding-bottom: 20px;
 		margin-top:15px;
+
+	}
+
+	#formation-list li{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		height: 50%;
 	}
 
 	.sec-droite{
@@ -224,39 +225,23 @@
 		color:black;
 	}
 
-	#formation-list li{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		height: 50%;
-	}
-
 	.sec-gauche{
+		display: flex;
+		flex-direction: column;
 		width:40%;
-		height: 20%;
+		height: 40%;
 		padding-top: 12px;
 		padding-bottom: 5px;
-		line-height: 0.7em;
-		justify-content: space-around;
-	}
-
-	.sec-gauche p{
-		color:black;
 	}
 
 	ul{
 		list-style: none;
 	}
-	
 
 	li:last-child{
   		list-style-type:disc;
-  		list-style-color:#fa8100;
-  		color:#fa8100;
+  		color:black;
 	}
-
-
-
 
 	#exp-professionnelles-list{
 		width:120%;
@@ -282,17 +267,16 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		height: 50%;
-		line-height: 10px;
 		list-style: none;
 	}
 
 	#recommandations-list{
 		width:170%;
-		height: 10%;
+		height: 40%;
 		padding-left: 0px;
 		margin-top:15px;
 		padding-top: 5px;
+		line-height: 10px;
 	}
 
 	h4{
