@@ -178,9 +178,11 @@
 	}
 
 	.fa-dot-circle-o{
+		display:flex;
 		color:#fa8100;
-		margin-top: 10px;
-		margin-right: 5px;
+		margin-top: 18px;
+		margin-right: 15px;
+
 		width:5px;
 	}
 
@@ -208,8 +210,8 @@
 		padding-left: 0px;
 		padding-bottom: 20px;
 		margin-top:15px;
-
 	}
+
 
 	#formation-list li{
 		display: flex;
@@ -230,10 +232,9 @@
 
 	.sec-gauche{
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		width:40%;
 		height: 40%;
-		padding-top: 12px;
 		padding-bottom: 5px;
 	}
 
@@ -274,13 +275,15 @@
 	
 	#recommandations-list li{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: space-around;
 		list-style: none;
 		height:40px;
 	}
 
 	#recommandations-list{
+		display: flex;
+		
 		width:170%;
 		padding-left: 0px;
 		margin-top:5px;
