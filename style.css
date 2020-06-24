@@ -231,7 +231,7 @@
 
 	.sec-gauche{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		width:40%;
 		height: 40%;
 		padding-bottom: 5px;
@@ -272,7 +272,6 @@
 		height:40px;
 	}
 
-
 	#recommandations-list{
 		list-style: none;
 		width:170%;
@@ -287,3 +286,31 @@
 		padding-top: 5px;
 		color:black;
 	}
+
+	@media all and (max-width: 1024px)
+	{
+    
+    section
+    {
+        flex-direction: row;
+    }
+
+    aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    
+    
+    #photo_zozor img
+    {
+        width: 110px;
+        float: right;
+        margin-left: 15px;
+    }
+    
+    aside p:last-child
+    {
+        text-align: center;
+    }
+}
