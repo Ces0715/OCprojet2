@@ -211,7 +211,6 @@
 		margin-top:15px;
 	}
 
-
 	#formation-list li{
 		display:flex;
 		flex-direction: row;
@@ -231,12 +230,11 @@
 
 	.sec-gauche{
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		width:40%;
 		height: 40%;
 		padding-bottom: 5px;
 	}
-
 
 	.exp-professionnelles{
 		display:flex;
@@ -258,6 +256,13 @@
 		height: 50%;
 	}
 
+	ul{
+		list-style-type: none;
+	}
+	
+	.circle{
+		
+	}
 	.recommandations{
 		display:flex;
 		width: 120%;
@@ -291,30 +296,37 @@
 		color:black;
 	}
 
-	@media all and (max-width: 1024px)
-	{
+
+
+
+	@media all and (max-width: 1024px){
     
-    section
-    {
-        flex-direction: row;
-    }
+	body{
+		width:100%;
+	}
 
     aside
-    {
-        width: auto;
-        margin-bottom: 15px;
-    }
-    
-    
-    #photo_zozor img
-    {
-        width: 110px;
-        float: right;
-        margin-left: 15px;
-    }
-    
-    aside p:last-child
-    {
+    {   
+        width:110%;
+        height:80%;
+        margin: 1200px 0px 0px 0px;
         text-align: center;
     }
-}
+
+    #container{
+    	 width:80%;
+    	 margin: 90px 0px 0px 0px;
+    }
+
+    header{
+    	margin-left: 10px;
+    	margin-top: 20px;
+    	background-color:grey;
+    	width: 110%;
+    }
+    
+    #photocv{
+    	margin-bottom: 20px;
+    }
+    
+    
