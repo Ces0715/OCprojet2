@@ -239,14 +239,16 @@
 
 	.sec-gauche1{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		width:30%;
 		height: 40%;
 		padding-bottom: 5px;
 		padding-right: 40px;
-		padding-left: 20px;
+		padding-left: 5px;
 		margin-right: 5px;
 	}
+
+
 
 	.exp-professionnelles{
 		display:flex;
@@ -275,12 +277,12 @@
 	.sec-gauche1 p::before{
 		content: "•"; 
 		color: #fa8100;
-  		display: inline-block; 
-  		width: 0.5em;
-  		font-size: 30px;
-  		margin-right: 0px;
+  		display: inline-block;
+  		font-size: 40px;
+  		margin-right: 8px;
   		margin-left: 0px;
   		padding-left: 0px;	
+
 	}
 
 
@@ -314,10 +316,8 @@
 	h4{
 		margin:0px;
 		padding-top: 5px;
-		color:black;
+	
 	}
-
-
 
 
 	@media all and (max-width: 1024px){
@@ -326,8 +326,7 @@
 		width:100%;
 	}
 
-    aside
-    {   
+    aside {   
         width:100%;
         height:35%;
         margin: 1200px 0px 0px 0px;
@@ -338,12 +337,13 @@
     #container{
     	 width:80%;
     	 margin: 90px 0px 0px 0px;
+    	 border:none;
     }
 
     header{
     	margin-left: 10px;
     	margin-top: 20px;
-    	background-color:grey;
+    	
     	width: 100%;
     }
     
