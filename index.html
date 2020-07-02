@@ -3,19 +3,21 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src = " https://use.fontawesome.com/1eb4223a9b.js " > </script>
 		<title>mon CV</title>
 	</head>
 
 	<body>
 		<header> 
 			<div id="en-tete">
-				<h1>CECILE FRANCESCHI</h1>
-				<h2>Développeuse web free lance</h2>
+				<h1><span class="yellow">CECILE</span> FRANCESCHI</h1>
+				<h2><span class="bordure">Dévelo</span>ppeuse web free lance</h2>	
+			</div>
       </div>
-		</header>
+	</header>
 
 		<aside>
-			<div id="photocv>
+			<div id="photocv">
 				<a href="photocv.jpg">
 					<img src="miniphotocv.jpg" alt="photocv"/>
 				</a>
@@ -46,37 +48,41 @@
 					</li>
 				</ul>
 			</div>	
+				<div id="about-me">
+				<h2>A PROPOS DE MOI</h2>
+					<p>Ingénieur de recherche en Biochimie et Immunologie, je suis en reconversion professionnelle. Pour cela, je viens de commencer une formation de développeur web chez OpenClassRoom depuis le mois d'avril. Je cherche une première expérience dans le domaine du web.</p>
+				</div>
 
-			<h2>A PROPOS DE MOI</h2>
-			<p>Ingénieur de recherche en Biochimie et Immunologie, je suis en reconversion professionnelle. Pour cela, je viens de commencer une formation de développeur web chez OpenClassRoom depuis le mois d'avril. Je cherche une première expérience dans le domaine du web.</p>
-		
-			<h2>LOISIRS</h2>
-			<div id="logo">
-				<div class="dog">
-					<img src="dog-solid.svg" alt="dog" />
+				<div id="hobby">
+				<h2>LOISIRS</h2>
+				<div id="logo">
+					<div class="sun">
+						<i class="fa fa-sun-o fa-2x" aria-hidden="true"></i>
+					</div>
+					<div class="tv">	
+						<i class="fa fa-television fa-2x" aria-hidden="true"></i>
+					</div>
+					<div class="bicycle">
+						<i class="fa fa-bicycle fa-2x" aria-hidden="true"></i>	
+					</div>
 				</div>
-				<div class="swim">	
-					<img src="swimmer-solid.svg" alt="swim" />
-				</div>
-				<div class="bicycle">	
-					<img src="bicycle-solid.svg" alt="bicycle" />
 				</div>	
 		</aside>
 
 
 		<section>
 			<div id="container">
-
 				<div class="formation">
-					<img src="book-open-solid.svg" alt="book" />
+					<i class="fa fa-book fa-2x" aria-hidden="true"></i>
 					<h2>FORMATION</h2>	
 				</div>
 	
 				<ul id="formation-list">
 					<li>
+						<i class="fa fa-dot-circle-o" aria-hidden="true"></i>
 						<div class="sec-gauche">
-							<strong>2020-2021</strong>
-							<p>Porto Vecchio</p>
+							<p><strong>2020-2021</strong></br>
+							Porto Vecchio</p>
 						</div>
 
 						<div class="sec-droite">
@@ -87,9 +93,9 @@
 					</li>
 					
 					<li>
-						<div class="sec-gauche">
-							<strong>2003-2008</strong>
-							<p>Marseille</p>
+						<div class="sec-gauche1">
+							<p><strong>2003-2008</strong></br>
+								Marseille</p>
 						</div>
 								
 						<div class="sec-droite">
@@ -101,7 +107,7 @@
 				</ul>	
 		
 				<div class="exp-professionnelles">
-					<img src="suitcase-solid.svg" alt="suitcase" />
+					<i class="fa fa-suitcase fa-2x" aria-hidden="true"></i>
 					<h2>EXPERIENCES PROFESSIONNELLES</h2>	
 				</div>
 
@@ -109,8 +115,9 @@
 				<ul id="exp-professionnelles-list">
 					<li>
 						<div class="sec-gauche">
-							<strong>2015-2019</strong>
-							<p>Porto Vecchio</p>
+							<i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+							<p><strong>2015-2019</strong></br>
+							Porto Vecchio</p>
 						</div>
 
 						<div class="sec-droite">
@@ -121,26 +128,28 @@
 					</li>
 					
 					<li>
-						<div class="sec-gauche">
-							<strong>2008-2012</strong>
-							<p>Marseille</p>
+						<div class="sec-gauche1">
+							<p><strong>2008-2012</strong></br>
+							Marseille</p>
 						</div>
 								
 						<div class="sec-droite">
 							<h4>POST-DOCTORAT </h4>
-									<strong>Post doctorat de Biochimie et Immunolgie</strong>
-                   <p>Essai clinique sur des souris Nude avec des anticorps monoclonaux.</P>
+								<strong>Post doctorat de Biochimie et Immunolgie</strong>
+								<p>Essai clinique sur des souris Nude avec des anticorps monoclonaux.</P>
+						</div>
+
 					</li>
 				</ul>	
 					
 				<div class="recommandations">
-					<img src="pencil-alt-solid.svg" alt="pencil" />
+					<i class="fa fa-address-book-o fa-2x" aria-hidden="true"></i>
 					<h2>RECOMMANDATIONS</h2>	
 				</div>
 
 				<ul id="recommandations-list">
 					<li>
-						<div class="sec-gauche">
+						<div class="recommandations1">
 							<h4>LOMBARDO Dominique</h4>
 							<p>Directeur du CRO2</p>
 
@@ -148,14 +157,14 @@
               <p>Mail:lombardominique@gmail.com</p>
 						</div>
 
-						<div class="sec-droite">
+						<div class="recommandations2">
 							<h4>CASTELI Ange </h4>
 							<p>Directeur du lycée</p>
 
 							<p>Tel: 04.95.77.60.61</p>
 							<p>Mail: casteliange@gmail.com</P>
 						</div>
-					</li>	
+					</li>
 				</ul>				
 			</div>
 		</section>

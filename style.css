@@ -13,26 +13,34 @@
 		margin-left: 220px;	
 		margin-top: 20px;
 	}
+	
+	.bordure{
+		border-bottom: 2px solid #fa8100;
+	}
 
 	h1{
 		font-size: 2em;
-		margin:30px 30px 0px 30px;
-		color: #fa8100;
-		text-shadow: 1px 1px 0px #fa8100;
+		margin: 30px 30px 0px 30px;
+	}
+
+	.yellow{
+		color: #fa8100;	
 	}
 
 	header h2{
 		font-size: 1.2em;
 		margin-right: 70px;
+		margin-top: 0px;
+		margin-bottom: 0px;	
 	}
 
 	aside{
-	    margin: 0px 0px 0px 0px;
+	    margin: 0;
 	    display: flex;
 	    flex-direction: column;
 	    position: absolute;
 	    width: 190px;
-	    height: 180%;
+	    height: 150%;
 	    background-color: #fa8100;
 	    font-size: 0.8em;
 	  	text-align: justify;
@@ -41,10 +49,10 @@
 
 	aside p{
 		line-height: 1em;
+		color:black;
 	}
 
 	h2+p{
-		padding-bottom: 250px;
 		margin-right: 15px;
 		margin-left: 14px;
 		line-height: 1.5em;
@@ -62,18 +70,20 @@
 		height: 150px;
 		object-fit: cover;
 		object-position: top;
+		border:3px orange solid;
 	}
 
 	aside h2{
 	font-size: 1.3em;
 	text-align: center;
-	color: white;
+	color: orange;
 	border: 3px black solid;
 	background-color: black;
 	}
 
 	aside h3{
 		line-height: 1em;
+		color:black;
 	}
 
 	aside li{
@@ -89,27 +99,40 @@
 		padding-top: 1px;
 	}
 
+	#hobby{
+		position: absolute;
+		bottom: 0;
+		left:0;
+		width: 100%;
+	}
+
 	section h2{
 		text-align: left;
 		font-size: 1.1em;
-    box-shadow: 0px 2px #fa8100;
 		width: 200%;
 		text-align: left;
-		padding-bottom: 2px;
 	}
 
-	.dog{
+	.tv{
 		width: 40px;
 		height: 40px;
 		border:2px solid black;	
 		border-radius: 50%;
 	}
 
-	.swim{
+	.fa-television{
+		padding-top: 8px;
+	}
+
+	.sun{
 		width: 40px;
 		height: 40px;
 		border:2px solid black;	
 		border-radius: 50%;
+	}
+
+	.fa-sun-o{
+		padding-top: 8px;
 	}
 
 	.bicycle{
@@ -119,57 +142,59 @@
 		border-radius: 50%;
 	}
 
+	.fa-bicycle{
+		padding-top: 8px;
+	}
+
 	#logo{
 		display:flex;
 		justify-content: space-between;
-		padding-top: 20px;
+		padding-top: 10px;
 		margin-left: 6px;
-		margin-right: 6px;	
+		margin-right: 6px;
+		margin-bottom: 10px;	
+		text-align: center;
 	}
-	
-	
-	.recommandations img{
-		width: 25px;
-		height: 25px;
+
+	.fa-book{
+		color:#fa8100;
 		padding-top: 10px;
 		margin-right: 10px;
 	}
 
-	.recommandations{
-		display: flex;
-	}
-
-	.exp-professionnelles img{
-		width: 25px;
-		height: 25px;
+	.fa-suitcase{
+		color:#fa8100;
 		padding-top: 10px;
 		margin-right: 10px;
 	}
 
-	.exp-professionnelles{
+	.fa-address-book-o{
+		color:#fa8100;
+		padding-top: 10px;
+		margin-right: 10px;
+	}
+
+	.fa-dot-circle-o{
 		display:flex;
-		width: 120%;
-	}
-
-	.formation img{
-		width: 25px;
-		height: 25px;
-		padding-top: 10px;
-		margin-right: 10px;
+		color:#fa8100;
+		margin-top: 18px;
+		margin-right: 15px;
+		width:5px;
 	}
 
 	.formation{
 		display: flex;
 		width: 120%;
+		box-shadow: 0px 2px #fa8100;
 	}
 	
 	#container{
 		display: flex;
 		flex-direction: column;
 		align-content: flex-start;
-		padding:170px 200px 50px 40px;
-    margin:15px 150px 0px 220px;
-		height: 85%;
+		padding:170px 200px 50px 30px;
+		margin:15px 0px 0px 200px;
+		height: 80%;
 		width: 40%;
 		border:1px solid black;	
 		font-size: 0.9em;
@@ -180,8 +205,16 @@
 		height: 35%;
 		padding-left: 0px;
 		padding-bottom: 20px;
-		margin-top:1px;
+		margin-top:15px;
 	}
+
+	#formation-list li{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-around;
+		height: 50%;
+	}
+
 
 	.sec-droite{
 		width:60%;
@@ -190,29 +223,40 @@
 		padding-top: 10px;	
 		margin-bottom: 10px;
 		text-align: justify;
-	}
-
-	#formation-list li{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		height: 50%;
+		color:black;
 	}
 
 	.sec-gauche{
+		display: flex;
+		flex-direction: row;
 		width:40%;
-		height: 20%;
-		padding-top: 12px;
+		height: 40%;
 		padding-bottom: 5px;
-		line-height: 0.7em;
-		display: list-item;
+		padding-left: 10px;
+	}
+
+	.sec-gauche1{
+		display: flex;
+		flex-direction: row;
+		width:30%;
+		height: 40%;
+		padding-bottom: 5px;
+		padding-right: 40px;
+		padding-left: 5px;
+		margin-right: 5px;
+	}
+
+	.exp-professionnelles{
+		display:flex;
+		width: 120%;
+		box-shadow: 0px 2px #fa8100;
 	}
 
 	#exp-professionnelles-list{
 		width:120%;
 		height: 30%;
 		padding-left: 0px;
-		margin-top:1px;
+		margin-top:15px;
 	}
 
 	#exp-professionnelles-list li{
@@ -221,29 +265,122 @@
 		justify-content: space-around;
 		height: 50%;
 	}
+	
+	.sec-gauche1{
+		display:list-item;
+		list-style: disc;
+		color:orange;
+		font-size: 22px;
+		padding-left: 8px;
+		margin-left: 22px;
+	  }
+
+	.sec-gauche1 p{
+		color:black;
+		font-size: 14px;
+		margin-top: 10px;
+	}
 
 	.recommandations{
 		display:flex;
 		width: 120%;
+		box-shadow: 0px 2px #fa8100;
 	}
+	
 	#recommandations-list li{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		height: 50%;
-		line-height: 10px;
 		list-style: none;
+		height:50px;
 	}
 
 	#recommandations-list{
-		width:170%;
-		height: 10%;
-		padding-left: 0px;
-		margin-top:15px;
-		padding-top: 5px;
+		list-style: none;
+		width:120%;
+		padding-left: 5px;
+		margin-top:20px;
+		line-height: 8px;
+	}
+
+	.recommandations2{
+		margin-right: 15px;
+		padding-left: 80px;
+
 	}
 
 	h4{
 		margin:0px;
 		padding-top: 5px;
 	}
+
+
+
+
+	@media all and (max-width: 1024px){
+    
+	body{
+		width:100%;
+	}
+
+    aside {   
+        width:110%;
+        height:60%;
+        margin: 1200px 0px 0px 0px;
+        text-align:center;
+        float:inline-end;
+    }
+
+    #container{
+    	 width:80%;
+    	 margin: 30px 0px 0px 0px;
+    	 border:none;
+    }
+
+    header{
+    	margin-left: 10px;
+    	margin-top: 20px;
+    	width: 100%;
+    }
+    
+    #photocv{
+    	margin-bottom: 20px;
+    	margin-left: 5px;
+    }
+    
+    aside h2{
+    	height: 30px;
+    	width: 100%;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+    	padding-top: 2px;
+    }
+
+    #logo{
+    	display:flex;
+    	flex-direction: row;
+    	margin-top: 0px;
+    	margin-right: 60px;
+    	padding-bottom: 20px;
+    	padding-right: 50px;
+    	padding-left: 50px;
+    	padding-top: 20px;
+    	height: 50%;
+    }
+
+    h2+p{
+    	padding-bottom: 20px;
+    	padding-top: 20px;
+    	padding-right: 10px;
+    	padding-left: 10px;
+    	width:90%;
+    }
+
+    aside h3{
+		line-height: 0.2em;
+		color:black;
+	}
+
+
+	
+	
