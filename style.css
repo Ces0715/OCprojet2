@@ -16,12 +16,12 @@
 	}
 	
 	.bordure{
-		border-bottom:2px solid #fa8100;
+		border-bottom: 2px solid #fa8100;
 	}
 
 	h1{
 		font-size: 2em;
-		margin:30px 30px 0px 30px;
+		margin: 30px 30px 0px 30px;
 	}
 
 	.yellow{
@@ -41,7 +41,7 @@
 	    flex-direction: column;
 	    position: absolute;
 	    width: 190px;
-	    height: 160%;
+	    height: 150%;
 	    background-color: #fa8100;
 	    font-size: 0.8em;
 	  	text-align: justify;
@@ -71,12 +71,13 @@
 		height: 150px;
 		object-fit: cover;
 		object-position: top;
+		border:3px orange solid;
 	}
 
 	aside h2{
 	font-size: 1.3em;
 	text-align: center;
-	color: white;
+	color: orange;
 	border: 3px black solid;
 	background-color: black;
 	}
@@ -103,7 +104,6 @@
 		bottom: 0;
 		left:0;
 		width: 100%;
-
 	}
 
 	section h2{
@@ -193,7 +193,7 @@
 		flex-direction: column;
 		align-content: flex-start;
 		padding:170px 200px 50px 30px;
-		margin:15px 0px 0px 220px;
+		margin:15px 0px 0px 200px;
 		height: 80%;
 		width: 40%;
 		border:1px solid black;	
@@ -214,6 +214,7 @@
 		justify-content: space-around;
 		height: 50%;
 	}
+
 
 	.sec-droite{
 		width:60%;
@@ -236,7 +237,7 @@
 
 	.sec-gauche1{
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		width:30%;
 		height: 40%;
 		padding-bottom: 5px;
@@ -264,19 +265,20 @@
 		justify-content: space-around;
 		height: 50%;
 	}
-
-	ul{
-		list-style: none;
-	}
 	
-	.sec-gauche1 p::before{
-		content: "•"; 
-		color: #fa8100;
-  		display: inline-block;
-  		font-size: 40px;
-  		margin-right: 8px;
-  		margin-left: 0px;
-  		padding-left: 0px;	
+	.sec-gauche1{
+		display:list-item;
+		list-style: disc;
+		color:orange;
+		font-size: 22px;
+		padding-left: 8px;
+		margin-left: 22px;
+	  }
+
+	.sec-gauche1 p{
+		color:black;
+		font-size: 14px;
+		margin-top: 10px;
 	}
 
 	.recommandations{
