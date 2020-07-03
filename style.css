@@ -41,7 +41,7 @@
 	    flex-direction: column;
 	    position: absolute;
 	    width: 190px;
-	    height: 150%;
+	    height: 145%;
 	    background-color: #fa8100;
 	    font-size: 0.8em;
 	  	text-align: justify;
@@ -271,7 +271,7 @@
 	.sec-gauche1{
 		display:list-item;
 		list-style: disc;
-		color:orange;
+		color:#fa8100;
 		font-size: 22px;
 		padding-left: 0px;
 		margin-left: 24px;
@@ -301,7 +301,7 @@
 
 	#recommandations-list{
 		list-style: none;
-		width:110%;
+		width:120%;
 		margin-top:20px;
 		line-height: 8px;
 		padding-left: 10px;
@@ -309,17 +309,17 @@
 	}
 
 	.recommandations2{
-		margin-right: 5px;
-		padding-left: 10px;
+		margin-right: 12px;
+		padding-left: 15px;
 
 	}
 
 	.recommandations1{
-		padding-right: 200px;
+		padding-right: 180px;
 	}
 
 	h4{
-		margin:0px;
+		margin:0;
 		padding-top: 5px;
 	}
 
