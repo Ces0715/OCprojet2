@@ -40,7 +40,7 @@
 	    flex-direction: column;
 	    position: absolute;
 	    width: 190px;
-	    height: 150%;
+	    height: 145%;
 	    background-color: #fa8100;
 	    font-size: 0.8em;
 	  	text-align: justify;
@@ -178,7 +178,7 @@
 		display:flex;
 		color:#fa8100;
 		margin-top: 18px;
-		margin-right: 15px;
+		margin-right: 17px;
 		width:5px;
 	}
 
@@ -217,7 +217,7 @@
 
 
 	.sec-droite{
-		width:60%;
+		width:55%;
 		height: 70%;
 		padding-bottom: 5px;
 		padding-top: 10px;	
@@ -226,19 +226,20 @@
 		color:black;
 	}
 
+
 	.sec-gauche{
 		display: flex;
 		flex-direction: row;
-		width:40%;
+		width:43%;
 		height: 40%;
 		padding-bottom: 5px;
-		padding-left: 10px;
+		
 	}
 
 	.sec-gauche1{
 		display: flex;
 		flex-direction: row;
-		width:30%;
+		width:35%;
 		height: 40%;
 		padding-bottom: 5px;
 		padding-right: 40px;
@@ -269,10 +270,12 @@
 	.sec-gauche1{
 		display:list-item;
 		list-style: disc;
-		color:orange;
+		color:#fa8100;
 		font-size: 22px;
-		padding-left: 8px;
-		margin-left: 22px;
+		padding-left: 0px;
+		margin-left: 24px;
+		margin-bottom: 5px;
+		padding-bottom: 5px;
 	  }
 
 	.sec-gauche1 p{
@@ -298,19 +301,24 @@
 	#recommandations-list{
 		list-style: none;
 		width:120%;
-		padding-left: 5px;
 		margin-top:20px;
 		line-height: 8px;
+		padding-left: 10px;
+		margin-right: 30px;
 	}
 
 	.recommandations2{
-		margin-right: 15px;
-		padding-left: 80px;
+		margin-right: 12px;
+		padding-left: 15px;
 
 	}
 
+	.recommandations1{
+		padding-right: 180px;
+	}
+
 	h4{
-		margin:0px;
+		margin:0;
 		padding-top: 5px;
 	}
 
@@ -379,6 +387,7 @@
     aside h3{
 		line-height: 0.2em;
 		color:black;
+	}
 	}
 
 
