@@ -42,7 +42,7 @@
 	    flex-direction: column;
 	    position: absolute;
 	    width: 190px;
-	    height:auto;
+	    height:1100px;
 	    background-color: #fa8100;
 	    font-size: 0.8em;
 	  	text-align: justify;
@@ -186,24 +186,25 @@
 
 	.formation{
 		display: flex;
-		width: 120%;
+		width:80%;
 		box-shadow: 0px 2px #fa8100;
 	}
 	
 	#container{
-		padding:180px 20px 10px 240px;
+		padding:180px 20px 20px 240px;
 		padding-bottom: 10px;
+		margin-bottom: 30px;
 		width: calc(100% - 190px);
-		border:1px solid black;	
 		font-size: 1em;
 	}
 
 	#formation-list{
-		width:120%;
-		height: 35%;
+		width:80%;
+		height: 40%;
 		padding-left: 0px;
 		padding-bottom: 20px;
 		margin-top:15px;
+		margin-right: 0px;
 	}
 
 	#formation-list li{
@@ -215,7 +216,7 @@
 
 
 	.sec-droite{
-		width:55%;
+		width:50%;
 		height: 70%;
 		padding-bottom: 5px;
 		padding-top: 10px;	
@@ -228,30 +229,25 @@
 	.sec-gauche{
 		display: flex;
 		flex-direction: row;
-		width:43%;
-		height: 40%;
-		padding-bottom: 5px;	
+		width:50%;
+		height: 40%;	
 	}
 
 	.sec-gauche1{
 		display: flex;
 		flex-direction: row;
-		width:35%;
+		width:52%;
 		height: 40%;
-		padding-bottom: 5px;
-		padding-right: 40px;
-		padding-left: 5px;
-		margin-right: 5px;
 	}
 
 	.exp-professionnelles{
-		display:flex;
-		width: 120%;
+		display: flex;
+		width: 80%;
 		box-shadow: 0px 2px #fa8100;
 	}
 
 	#exp-professionnelles-list{
-		width:120%;
+		width:80%;
 		height: 30%;
 		padding-left: 0px;
 		margin-top:15px;
@@ -269,10 +265,9 @@
 		list-style: disc;
 		color:#fa8100;
 		font-size: 22px;
-		padding-left: 0px;
-		margin-left: 24px;
 		margin-bottom: 5px;
 		padding-bottom: 5px;
+		margin-left: 22px;
 	  }
 
 	.sec-gauche1 p{
@@ -281,9 +276,13 @@
 		margin-top: 10px;
 	}
 
+	.sec-gauche p{
+		font-size: 14px;
+	}
+
 	.recommandations{
 		display:flex;
-		width: 120%;
+		width: 80%;
 		box-shadow: 0px 2px #fa8100;
 	}
 	
@@ -292,12 +291,11 @@
 		flex-direction: row;
 		justify-content: space-around;
 		list-style: none;
-		height:50px;
 	}
 
 	#recommandations-list{
 		list-style: none;
-		width:120%;
+		width:70%;
 		margin-top:20px;
 		line-height: 8px;
 		padding-left: 10px;
