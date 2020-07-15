@@ -1,13 +1,21 @@
 	body{	
 		display: flex;
-		font-family: "comic sans ms";
 		margin: 0;
-		width: 100%;		
+		width: 100%;
+		font-family: open_sansregular;
 	}
 
-	@font-face{
-		font-family: 'Roboto', sans-serif;
-	}
+	@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 	header{
 		display: flex;
@@ -238,7 +246,7 @@
 	.sec-gauche1{
 		display: flex;
 		flex-direction: row;
-		width:52%;
+		width:48%;
 	}
 
 	.exp-professionnelles{
@@ -254,6 +262,11 @@
 		margin-top:15px;
 	}
 
+	#exp-professionnelles-list sec-droite{
+		margin-left: 50px;
+		padding-left: 50px;
+	}
+
 	#exp-professionnelles-list li{
 		display: flex;
 		flex-direction: row;
@@ -264,6 +277,7 @@
 	.sec-gauche1{
 		display:list-item;
 		list-style: disc;
+		font-size: 20px;
 		color:#fa8100;
 		margin-left: 22px;
 	  }
