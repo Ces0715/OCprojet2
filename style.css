@@ -1,7 +1,7 @@
 	body{	
 		display: flex;
 		margin: 0;
-		width: 100%;
+		width: auto;
 		font-family: open_sansregular;
 		border:1px solid black;
 	}
@@ -339,15 +339,15 @@
 	@media all and (max-width: 1024px){
     
 	body{
-		width:100%;
+		width:auto;
+		border:none;
 	}
 
     aside {   
         width:800px;
         height:1000px;
         margin: 1410px 0px 0px 0px;
-        text-align:center;
-        
+        text-align:center;   
     }
 
     #container{
