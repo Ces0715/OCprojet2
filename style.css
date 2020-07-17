@@ -1,9 +1,8 @@
 	body{	
 		display: flex;
 		margin: 0;
-		width: auto;
+		width: 100%;
 		font-family: open_sansregular;
-		border:1px solid black;
 	}
 
 	@font-face {
@@ -54,7 +53,6 @@
 	    width: 240px;
 	    height:1300px;
 	    background-color: #fa8100;
-	  	text-align: justify;
 	  	padding-top: 20px;
 	}
 
@@ -211,7 +209,6 @@
 		padding-bottom: 10px;
 		margin-bottom: 30px;
 		width: calc(100% - 190px);
-		font-size: 1em;
 	}
 
 	#formation-list{
@@ -310,21 +307,16 @@
 
 	#recommandations-list{
 		list-style: none;
-		width:70%;
 		margin-top:40px;
 		line-height: 8px;
-		padding-left: 10px;
-		margin-right: 30px;
-	}
-
-	.recommandations2{
-		margin-right: 12px;
-		padding-left: 15px;
-
+		margin-right: 200px;
+		padding-right: 300px;
+		padding-left: 0;
 	}
 
 	.recommandations1{
-		padding-right: 220px;
+		padding-right: 300px;
+		margin-right: 50px;
 	}
 
 	h4{
@@ -338,10 +330,8 @@
 
 	@media all and (max-width: 1024px){
     
-	body{
-		width:auto;
-		border:none;
-	}
+
+
 
     aside {   
         width:800px;
@@ -355,6 +345,7 @@
     	 margin: 30px 0px 0px 70px;
     	 border:none;
     	 padding:0;
+    	 overflow:hidden;
     }
 
     header{
@@ -400,7 +391,8 @@
 		line-height: 0.2em;
 		color:black;
 	}
-	}
+
+	
 
 
 	
