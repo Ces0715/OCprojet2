@@ -1,17 +1,30 @@
 	body{	
 		display: flex;
-		font-family: "comic sans ms";
-		margin: 0px;
-		width: 100%;		
+		margin: 0;
+		width: 100%;
+		font-family: open_sansregular;
 	}
+
+	@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 	header{
 		display: flex;
-		position:absolute;
-		width: 60%;
-		text-align: center;
-		margin-left: 220px;	
-		margin-top: 20px;
+		width: 80%;
+		text-align: left;
+		margin-left: 10px;	
+		margin-bottom: 60px;
+		margin-top: 40px;
+		font-size: 1.3em;
 	}
 	
 	.bordure{
@@ -20,7 +33,7 @@
 
 	h1{
 		font-size: 2em;
-		margin: 30px 30px 0px 30px;
+		margin: 30px 30px 0px 0px;
 	}
 
 	.yellow{
@@ -28,10 +41,8 @@
 	}
 
 	header h2{
-		font-size: 1.2em;
 		margin-right: 70px;
-		margin-top: 0px;
-		margin-bottom: 0px;	
+		margin-top: 0;
 	}
 
 	aside{
@@ -39,11 +50,9 @@
 	    display: flex;
 	    flex-direction: column;
 	    position: absolute;
-	    width: 190px;
-	    height: 145%;
+	    width: 240px;
+	    height:1300px;
 	    background-color: #fa8100;
-	    font-size: 0.8em;
-	  	text-align: justify;
 	  	padding-top: 20px;
 	}
 
@@ -53,15 +62,16 @@
 	}
 
 	h2+p{
-		margin-right: 15px;
-		margin-left: 14px;
+		margin-right: 20px;
+		margin-left: 20px;
 		line-height: 1.5em;
 		text-align: justify;
 	}
 
 	#photocv{
 		text-align:center;
-		margin-top: 4px;
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 
 	#photocv a img{
@@ -70,30 +80,36 @@
 		height: 150px;
 		object-fit: cover;
 		object-position: top;
-		border:3px orange solid;
+		border: 3px orange solid;
 	}
 
 	aside h2{
-	font-size: 1.3em;
+	font-size: 1.2em;
 	text-align: center;
-	color: orange;
+	color: #fa8100;
 	border: 3px black solid;
 	background-color: black;
 	}
 
 	aside h3{
 		line-height: 1em;
+		font-size: 1em;
 		color:black;
+		margin-bottom: 5px;
+	}
+
+	h3+p{
+		margin-top: 0;
 	}
 
 	aside li{
-		margin-bottom: 5px;
+		margin-bottom: 25px;
 	}
 
 	#contact-list{
 		list-style: none;
-		margin-right: 5px;
-		margin-left: 5px;
+		margin-right: 15px;
+		margin-left: 15px;
 		padding-right: 5px;
 		padding-left: 5px;
 		padding-top: 1px;
@@ -108,7 +124,7 @@
 
 	section h2{
 		text-align: left;
-		font-size: 1.1em;
+		font-size: 1.3em;
 		width: 200%;
 		text-align: left;
 	}
@@ -121,7 +137,7 @@
 	}
 
 	.fa-television{
-		padding-top: 8px;
+		padding-top: 5px;
 	}
 
 	.sun{
@@ -132,7 +148,7 @@
 	}
 
 	.fa-sun-o{
-		padding-top: 8px;
+		padding-top: 5px;
 	}
 
 	.bicycle{
@@ -143,7 +159,7 @@
 	}
 
 	.fa-bicycle{
-		padding-top: 8px;
+		padding-top: 5px;
 	}
 
 	#logo{
@@ -184,28 +200,24 @@
 
 	.formation{
 		display: flex;
-		width: 120%;
+		width:80%;
 		box-shadow: 0px 2px #fa8100;
 	}
 	
 	#container{
-		display: flex;
-		flex-direction: column;
-		align-content: flex-start;
-		padding:170px 200px 50px 30px;
-		margin:15px 0px 0px 200px;
-		height: 80%;
-		width: 40%;
-		border:1px solid black;	
-		font-size: 0.9em;
+		padding:20px 20px 20px 300px;
+		padding-bottom: 10px;
+		margin-bottom: 30px;
+		width: calc(100% - 190px);
 	}
 
 	#formation-list{
-		width:120%;
-		height: 35%;
+		width:80%;
+		height: 40%;
 		padding-left: 0px;
-		padding-bottom: 20px;
+		padding-bottom: 50px;
 		margin-top:15px;
+		margin-right: 0px;
 	}
 
 	#formation-list li{
@@ -215,49 +227,43 @@
 		height: 50%;
 	}
 
-
 	.sec-droite{
-		width:55%;
-		height: 70%;
+		width:50%;
 		padding-bottom: 5px;
 		padding-top: 10px;	
 		margin-bottom: 10px;
 		text-align: justify;
-		color:black;
 	}
-
 
 	.sec-gauche{
 		display: flex;
 		flex-direction: row;
-		width:43%;
-		height: 40%;
-		padding-bottom: 5px;
-		
+		width:50%;	
 	}
 
 	.sec-gauche1{
 		display: flex;
 		flex-direction: row;
-		width:35%;
-		height: 40%;
-		padding-bottom: 5px;
-		padding-right: 40px;
-		padding-left: 5px;
-		margin-right: 5px;
+		width:48%;
 	}
 
 	.exp-professionnelles{
-		display:flex;
-		width: 120%;
+		display: flex;
+		width: 80%;
 		box-shadow: 0px 2px #fa8100;
 	}
 
 	#exp-professionnelles-list{
-		width:120%;
+		width:80%;
 		height: 30%;
 		padding-left: 0px;
 		margin-top:15px;
+		padding-bottom: 50px;
+	}
+
+	#exp-professionnelles-list sec-droite{
+		margin-left: 50px;
+		padding-left: 50px;
 	}
 
 	#exp-professionnelles-list li{
@@ -270,12 +276,9 @@
 	.sec-gauche1{
 		display:list-item;
 		list-style: disc;
+		font-size: 20px;
 		color:#fa8100;
-		font-size: 22px;
-		padding-left: 0px;
-		margin-left: 24px;
-		margin-bottom: 5px;
-		padding-bottom: 5px;
+		margin-left: 22px;
 	  }
 
 	.sec-gauche1 p{
@@ -284,9 +287,13 @@
 		margin-top: 10px;
 	}
 
+	.sec-gauche p{
+		font-size: 14px;
+	}
+
 	.recommandations{
 		display:flex;
-		width: 120%;
+		width: 80%;
 		box-shadow: 0px 2px #fa8100;
 	}
 	
@@ -295,31 +302,26 @@
 		flex-direction: row;
 		justify-content: space-around;
 		list-style: none;
-		height:50px;
 	}
 
 	#recommandations-list{
 		list-style: none;
-		width:120%;
-		margin-top:20px;
+		margin-top:40px;
 		line-height: 8px;
-		padding-left: 10px;
-		margin-right: 30px;
-	}
-
-	.recommandations2{
-		margin-right: 12px;
-		padding-left: 15px;
-
+		margin-right: 200px;
+		padding-right: 300px;
+		padding-left: 0;
 	}
 
 	.recommandations1{
-		padding-right: 180px;
+		padding-right: 300px;
+		margin-right: 50px;
 	}
 
 	h4{
 		margin:0;
 		padding-top: 5px;
+		font-weight: bold;
 	}
 
 
@@ -328,21 +330,22 @@
 	@media all and (max-width: 1024px){
     
 	body{
-		width:100%;
+		width:auto;
 	}
 
     aside {   
-        width:110%;
-        height:60%;
-        margin: 1200px 0px 0px 0px;
-        text-align:center;
-        float:inline-end;
+        width:1000px;
+        height:1000px;
+        margin: 1410px 0px 0px 0px;
+        text-align:center;   
     }
 
     #container{
-    	 width:80%;
-    	 margin: 30px 0px 0px 0px;
+    	 width:auto;
+    	 margin: 30px 0px 0px 70px;
     	 border:none;
+    	 padding:0;
+    	 overflow:hidden;
     }
 
     header{
@@ -388,7 +391,8 @@
 		line-height: 0.2em;
 		color:black;
 	}
-	}
+
+	
 
 
 	
