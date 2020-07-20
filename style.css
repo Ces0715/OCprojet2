@@ -1,11 +1,11 @@
 	@font-face {
     font-family: 'open_sansregular';
-    src: url('OpenSans-Regular-webfont.eot');
-    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-Regular-webfont.woff2') format('woff2'),
-         url('OpenSans-Regular-webfont.woff') format('woff'),
-         url('OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    src: url('OCprojet2/fonts/webfonts/OpenSans-Regular-webfont.eot');
+    src: url('OCprojet2/fonts/webfonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OCprojet2/fonts/webfonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('OCprojet2/fonts/webfonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('OCprojet2/fonts/webfonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OCprojet2/fonts/webfonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 	}
@@ -138,6 +138,8 @@
 
 	.fa-television{
 		padding-top: 5px;
+		width: 40px;
+		height:40px;
 	}
 
 	.sun{
@@ -196,6 +198,16 @@
 		margin-top: 18px;
 		margin-right: 17px;
 		width:5px;
+		font-size: 10px;
+	}
+
+	.fa-circle{
+		display:flex;
+		color:#fa8100;
+		margin-top: 18px;
+		margin-right: 17px;
+		width:5px;
+		font-size: 10px;
 	}
 
 	.formation{
@@ -230,13 +242,6 @@
 		width: 60%;
 	}
 
-	.sec-droite1{
-		padding-bottom: 5px;
-		padding-top: 10px;	
-		margin-bottom: 10px;
-		text-align: justify;
-		width: 65%;
-	}
 
 	.sec-gauche{
 		display: flex;
@@ -248,11 +253,6 @@
 		display: flex;
 		flex-direction: row;
 		width: 40%;	
-		display:list-item;
-		list-style: disc;
-		font-size: 20px;
-		color:#fa8100;
-		margin-left: 22px;
 	}
 
 	.exp-professionnelles{
@@ -274,9 +274,6 @@
 		flex-direction: row;
 		justify-content: space-between;
 	}
-
-	
-
 
 	.sec-gauche1 p{
 		color:black;
@@ -326,19 +323,22 @@
     
 	body{
 		width:auto;
+		display:flex;
+		flex-direction: column;
 	}
 
     aside {   
-        width:1000px;
         height:1000px;
+        width:1000px;
         margin: 1410px 0px 0px 0px;
-        text-align:center;   
+        text-align:center; 
+        display:flex; 
+        flex-direction: column;
     }
 
     #container{
     	 width:auto;
-    	 margin: 30px 0px 0px 70px;
-    	 border:none;
+    	 margin: 30px 0px 0px 10px;
     	 padding:0;
     	 overflow:hidden;
     }
@@ -387,7 +387,9 @@
 		color:black;
 	}
 
-	
+	.recommandations1{
+		padding-right: 100px;
+	}
 
 
 	
