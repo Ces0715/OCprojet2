@@ -9,7 +9,6 @@
 	
 	header{
 		display: flex;
-		width: 80%;
 		text-align: left;
 		margin-left: 10px;	
 		margin-bottom: 60px;
@@ -214,7 +213,7 @@
 		padding-left: 0px;
 		padding-bottom: 50px;
 		margin-top:15px;
-		width: 80%;
+		width:80%;
 	}
 
 	#formation-list li{
@@ -295,8 +294,8 @@
 	}
 
 	.recommandations1{
-		padding-right: 300px;
-		margin-right: 50px;
+		padding-right: 100px;
+		margin-right: 40px;
 	}
 
 	h4{
@@ -318,7 +317,7 @@
     aside {   
         height:1000px;
         width:800px;
-        margin: 1410px 0px 0px 0px;
+        margin: 1450px 0px 0px 0px;
         text-align:center; 
         display:flex; 
         flex-direction: column;
@@ -370,7 +369,10 @@
 	}
 
 	
-
+	.recommandations1{
+		padding-right: 80px;
+		margin-right: 0;
+	}
 
 	
 	
