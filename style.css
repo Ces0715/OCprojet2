@@ -322,7 +322,7 @@
 
     #container{
     	width:100%;
-    	 margin: 0;
+    	
     	 padding:0;
     }
 
@@ -356,9 +356,7 @@
 		position: relative;
 	}
 
-    h2+p{
-       	width:80%;	
-    }
+       	
 
     aside h3{
 		line-height: 0.2em;
@@ -383,4 +381,19 @@
 		width:100%;
 	}
 
+	.formation{
+		width:100%;
+	 }
 
+	#exp-professionnelles-list{
+		width:100%;	
+	}
+
+	.exp-professionnelles{
+		width: 100%;
+	 }
+
+
+	 .recommandations{
+		width: 100%;
+	}
