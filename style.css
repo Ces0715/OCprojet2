@@ -327,6 +327,7 @@
     header{
     	margin-left: 0;
     	margin-top: 0;
+    	padding-left: 10px;
     	width: 100%;
     }
     
@@ -373,25 +374,28 @@
 	}
 	
 	#formation-list{
-		width:98%;
+		width:95%;
 		padding-left: 10px;
 	}
 
 	.formation{
 		width:100%;
+		padding-left: 5px;
 	 }
 
 	#exp-professionnelles-list{
-		width:98%;
+		width:95%;
 		padding-left: 10px;	
 	}
 
 	.exp-professionnelles{
 		width: 100%;
+		padding-left: 5px;
 	}
 
 	 .recommandations{
 		width: 100%;
+		padding-left: 5px;
 	}
 
 	@media all and (max-width: 480px){
@@ -406,6 +410,13 @@
 		flex-direction: column;
 		justify-content: space-between;
 	}
+
+	#formation-list li{
+		display:flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
 
 	.sec-droite{
 		width:100%;
