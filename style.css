@@ -27,6 +27,7 @@
 
 	.yellow{
 		color: #fa8100;	
+		font-weight: bold;
 	}
 
 	header h2{
@@ -254,7 +255,6 @@
 		padding-bottom: 50px;
 	}
 
-
 	#exp-professionnelles-list li{
 		display: flex;
 		flex-direction: row;
@@ -311,18 +311,16 @@
 		flex-direction: column-reverse;
 	}
 
-    aside {   
+    aside{   
         width:100%;
         margin: 0px 0px 0px 0px;
         text-align:center; 
         display:flex; 
-        flex-direction: column;
-        
+        flex-direction: column;    
     }
 
     #container{
     	width:100%;
-    	
     	 padding:0;
     }
 
@@ -356,8 +354,6 @@
 		position: relative;
 	}
 
-       	
-
     aside h3{
 		line-height: 0.2em;
 		color:black;
@@ -373,12 +369,12 @@
 		flex-direction: column;
 		justify-content: space-between;
 		list-style: none;
+		padding-left: 10px;
 	}
 	
 	#formation-list{
-		padding-left: 0px;
-		padding-bottom: 50px;
-		width:100%;
+		width:98%;
+		padding-left: 10px;
 	}
 
 	.formation{
@@ -386,13 +382,13 @@
 	 }
 
 	#exp-professionnelles-list{
-		width:100%;	
+		width:98%;
+		padding-left: 10px;	
 	}
 
 	.exp-professionnelles{
 		width: 100%;
-	 }
-
+	}
 
 	 .recommandations{
 		width: 100%;
