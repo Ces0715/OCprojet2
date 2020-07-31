@@ -223,6 +223,11 @@
 		justify-content: space-between;
 	}
 
+	#dotdate{
+		display: flex;
+		flex-direction: row;
+	}
+
 	.sec-droite{
 		padding-bottom: 5px;
 		padding-top: 10px;	
@@ -234,13 +239,11 @@
 	.sec-gauche{
 		display: flex;
 		flex-direction: row;
-		width:40%;
 	}
 
 	.sec-gauche1{
 		display: flex;
 		flex-direction: row;
-		width: 40%;	
 	}
 
 	.exp-professionnelles{
@@ -319,15 +322,12 @@
         flex-direction: column;    
     }
 
-    #container{
-    	width:100%;
-    	 padding:0;
-    }
+    
 
     header{
     	margin-left: 0;
     	margin-top: 0;
-    	width: 100%;
+    	padding-left: 10px;
     }
     
     #photocv{
@@ -359,6 +359,11 @@
 		color:black;
 	}
 	
+	#container{
+    	width:100%;
+    	padding:0;
+    }
+	
 	.recommandations1{
 		padding-right: 80px;
 		margin-right: 0;
@@ -366,30 +371,71 @@
 
 	#recommandations-list li{
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: space-between;
 		list-style: none;
 		padding-left: 10px;
 	}
 	
 	#formation-list{
-		width:98%;
+		width:95%;
 		padding-left: 10px;
 	}
 
 	.formation{
 		width:100%;
+		padding-left: 10px;
 	 }
 
 	#exp-professionnelles-list{
-		width:98%;
+		width:95%;
 		padding-left: 10px;	
 	}
 
 	.exp-professionnelles{
 		width: 100%;
+		padding-left: 10px;
 	}
 
 	 .recommandations{
 		width: 100%;
+		padding-left: 10px;
+	}
+
+	@media all and (max-width: 480px){
+
+	#recommandations-list li{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#exp-professionnelles-list li{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	#formation-list li{
+		display:flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.sec-droite{
+		width:100%;
+	}
+
+	#dotdate{
+		display:flex;
+		flex-direction: row;
+	}
+
+	section h2{
+		font-size: 1.1em;
+	}
+
+	.fa-2x{
+		font-weight: 1.7em;
+	}
+
 	}
