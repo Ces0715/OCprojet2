@@ -26,7 +26,7 @@
 	}
 
 	.yellow{
-		color: black;	
+		color: #fa8100 ;	
 		font-weight: bold;
 	}
 
@@ -77,8 +77,8 @@
 		font-size: 1.2em;
 		text-align: center;
 		color: #fa8100;
-		border: 3px black solid;
-		background-color: black;		
+		border: 3px solid;
+		background-color: black;	
 	}
 
 	aside h3{
@@ -239,6 +239,14 @@
 	.sec-gauche{
 		display: flex;
 		flex-direction: row;
+	}
+
+	.sec-gauche p{
+		font-weight: bold;
+	}
+
+	.sec-gauche1 p{
+		font-weight: bold;
 	}
 
 	.sec-gauche1{
@@ -431,9 +439,5 @@
 	section h2{
 		font-size: 1.1em;
 	}
-
-	.fa-2x{
-		font-weight: 1.7em;
-	}
-
-	}
+}
+}
